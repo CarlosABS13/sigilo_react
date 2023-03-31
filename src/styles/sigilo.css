@@ -1,0 +1,405 @@
+.header {
+    background-color: #757575;
+    z-index: 1000;
+    border-bottom-left-radius: 1.8rem;
+    border-bottom-right-radius: 1.8rem;
+}
+
+.imagen{
+    width: 60px;
+    height: 100px;
+}
+
+.logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 4rem !important;
+}
+
+.logo :hover{
+    transform:scale(1.1);
+}
+
+.seccion1{
+    margin: 1rem 1rem !important ;
+    overflow: hidden;
+    border: #757575 solid;
+    border-radius: 1em;
+    box-shadow: 0px 2px 10px 2px rgba(229,197 ,5); 
+}
+
+.seccion11{
+    margin: 1rem 1rem !important ;
+    overflow: hidden;
+    background: #757575;
+    border-radius: 1em;
+}
+
+.crr{
+    background-color: #757575 !important;
+    border: none !important;
+}
+
+.pr{
+    margin: 1rem 0;
+    width: 390px;
+    height: 390px;
+}
+
+.carr {
+    margin: 0 rem !important;
+}
+
+.boton{
+    display: block !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #e5c505 !important;
+}
+
+.carr img {
+    width: auto;
+    height: auto;
+}
+
+.seccion2{
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: #757575 solid;
+    border-radius: 1em;
+    box-shadow: 0px 2px 10px 2px rgba(229,197 ,5); 
+}
+
+.sl{
+    margin: 1rem 0;
+}
+
+.mi{
+    width: 422px !important;
+    height: 422px !important;
+}
+
+.vi{
+    margin-bottom: 3rem;
+    width: 448  px !important;
+    height: 448px !important;
+}
+
+.sn{
+    width: 396px !important;
+    height: 396px !important;
+}
+
+.card11{
+    border: #e5c505 solid !important;
+}
+
+.card22{
+    border: #e5c505 solid !important;
+}
+
+.card3{
+    border: #e5c505 solid !important;
+}
+
+
+.seccion3{
+    background: #757575;
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.comosejuega{
+    border: #757575 solid !important;
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px 2px rgba(229,197 ,5); 
+}
+
+
+.personajes{
+    border: #757575 solid !important;
+    box-shadow: 0px 2px 10px 2px rgba(229,197 ,5);
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+
+.gero{
+    width: 250px ;
+    height: 300px;
+}
+
+.gero1 :hover{
+    transition: 0s;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d ;
+    border-radius: 1rem;
+    border: #e5c505 solid 5px !important;
+}
+.gero1 :active{
+    transition: 0.5s;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    border: #e5c505 solid 5px !important;
+}
+
+.draco{
+    border-radius: 2em;
+    width: 270px !important;
+    height: 300px !important;
+}
+
+.draco1 :hover{
+
+    transition: 0s;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    border: #e5c505 solid 5px;
+}
+.draco1 :active{
+    transition: 0.5s;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    border: #e5c505 solid 5px !important;
+}
+
+.puar{
+    border-radius: 2em;
+    height: 300px;
+}
+
+.puar1 :hover{
+    transition: 0s;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d ease-out;
+    border: #e5c505 solid 5px !important;
+}
+
+.puar1 :active{
+    transition: 0.5s;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    border: #e5c505 solid 5px !important;
+}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px !important;
+    color:#e5c505;
+    font-weight: bold;
+}
+
+.per{
+    background:white !important;
+    margin: 1rem 0 2rem 0 !important;
+}
+
+.gro{
+    text-justify: auto;
+}
+
+.go{
+    text-justify: auto;
+}
+
+.dra{
+  width: 200px;  
+}
+
+.botonp{
+    border-radius: 5px !important;
+    background: #e5c505 !important;
+}
+
+.botonp :hover{
+    color: #757575 !important;
+    font-weight: bold !important;
+    background: white !important;
+    border: black solid !important ;
+}
+
+.botonp :active{
+    color: white !important ;
+    font-weight: bold !important;
+    background: #757575 !important;
+    border: #e5c505 solid !important ;
+}
+
+.borde{
+    border: #e5c505 solid !important;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #757575;
+    z-index: 1000;
+    border-top-left-radius: 1.8rem;
+    border-top-right-radius: 1.8rem;
+}
+
+.logof{
+    width: 80px !important;
+    height: 130px !important;
+}
+
+.logof :hover{
+    filter:opacity(50%);
+    transition: 0,5s;
+}
+
+.logos{
+    width: 40px ;
+    height: 40px ;
+    margin: 0 0 2rem !important;
+    text-decoration: none;
+    color: none;
+}
+
+.logos :hover{
+    filter:opacity(30%);
+    transition: 0,5s;
+}
+
+.ir-arriba {
+    border-radius: 50px;
+	display:none;
+	padding:20px;
+	background:#e5c505;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+    z-index: 1000;
+    animation: rebota 0.4s alternate infinite ease-out;
+}
+
+.flecha{
+    width: 30px;
+    height: 25px;
+}
+
+.letra{
+    font-family: omegle;
+}
+
+.modal-title{
+    font-family: creato;
+}
+
+.nombres{
+    font-size:15pt !important ;
+    margin-left: 2.5rem;
+}
+
+.nombres1{
+    font-size:18pt !important ;
+    margin-left: 6rem;
+}
+.nombres2{
+    font-size:18pt !important ;
+    margin-left: 5rem;
+}
+
+p{
+    text-align: justify;
+    font-family:creatoo ;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+h3{
+    font-family: creatol;
+}
+
+.creato{
+    font-family: creato;
+}
+
+.modal-footer{
+    font-family: omegle;
+}
+
+h5{
+    font-family: creato;
+}
+
+.clr{
+    font-family: creatom;
+    font-size: 12pt !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.clr :hover{
+    border-bottom: solid 3px #e5c505;
+    transition: 0.2s ease-in-out;
+}
+
+.clrx{
+    color: black;
+}
+
+.hola{
+    border-radius: 5px !important;
+    background: #e5c505 !important;
+    font-family: creatom;
+}
+
+.hola :hover{
+    color: #757575 !important;
+    font-weight: bold !important;
+    background: white !important;
+    border: black solid !important ;
+}
+
+.hola :active{
+    color: white !important ;
+    font-weight: bold !important;
+    background: #757575 !important;
+    border: #e5c505 solid !important ;
+}
+
+@keyframes rebota {
+    0% {
+      bottom: 0;
+      height: 70px;
+    }
+    100% {
+      bottom: 15px;
+    }
+  }
+
+@font-face {
+    font-family: omegle ;
+    src: url(../../public/fonts/omegle/OMEGLE.ttf);
+  }
+
+@font-face {
+    font-family: creato;
+    src: url(../../public/fonts/creato_display/CreatoDisplay-Black.otf);
+}
+
+@font-face {
+    font-family: creatol;
+    src: url(../../public/fonts/creato_display/CreatoDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: creatoo;
+    src: url(../../public/fonts/creato_display/CreatoDisplay-Thin.otf);
+}
+
+@font-face {
+    font-family:creatom ;
+    src: url(../../public/fonts/creato_display/CreatoDisplay-Medium.otf);
+}
